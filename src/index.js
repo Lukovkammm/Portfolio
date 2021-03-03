@@ -14,7 +14,7 @@ const projectItemConfig = [{
         task: 'The layout of the page according to the design. Using JavaScript to create an adaptive menu, slider, and switch tabs in the Portfolio block',
         image: './src/img/singolo.png',
         tags: ['#html', '#scss', '#js', '#webpack', '#github', '#git', '#vscode', '#adaptive'],
-        link: 'https://lukovkammm.github.io/singolo/',
+        link: 'https://friendly-fermat-85215b.netlify.app/',
     },
 
     {
@@ -132,8 +132,6 @@ navigation.onclick = function (event) {
     hamburger.classList.toggle('hamburger_isActive');
 }
 
-// const modalCloseBtn = document.querySelector('.modal__close');
-
 projectItemConfig.forEach((item, index) => {
     let generated = new ProjectItem(item).generateItem(index);
     itemsWrapper.insertAdjacentElement('beforeend', generated);
@@ -152,7 +150,6 @@ itemsWrapper.addEventListener('click', (e) => {
 
 modal.addEventListener('click', closeModal);
 
-
 function closeModal(e) {
     if (e.target.classList.contains('modal__close')) {
         modal.classList.remove('show');
@@ -160,16 +157,6 @@ function closeModal(e) {
     }
 }
 
-
-
 AOS.init({
     duration: 2000,
 })
-
-// document.addEventListener('aos:in', ({ detail }) => {
-//     console.log('animated in', detail);
-// });
-
-// document.addEventListener('aos:out:super-duper', ({ detail }) => {
-//     console.log('animated out', detail);
-// });
