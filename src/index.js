@@ -1,5 +1,4 @@
 import './style.css';
-// import 'aos/dist/aos.css';
 import AOS from 'aos';
 
 import {ProjectItem} from './js/ProjectItem';
