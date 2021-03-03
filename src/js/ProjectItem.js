@@ -40,14 +40,3 @@ export class ProjectItem {
         return modal.innerHTML = template;
     }
 }
-
-{/* <section class="modal">
-        <img src="./src/img/mole.png" alt="">
-        <div class="modal__wrapper">
-            <h3 class="modal__title">Singolo</h3>
-            <p class="modal__desc">The layout of the page according to the design. Using JavaScript to create an
-                adaptive menu, slider, and switch tabs in the Portfolio block</p>
-            <p class="modal__tags">#vscode</p>
-            <a class="button modal__link" href="">View project</a>
-        </div>
-    </section> */}
