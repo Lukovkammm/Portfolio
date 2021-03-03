@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Montserrat:wght@300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Portfolio</title>
+<script defer src="main.js"></script><link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <header class="header">
+        <span class="hamburger">
+            <span class="hamburger__line"></span>
+        </span>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home">Home</a></li>
+                <li class="nav__item"><a href="#about">About</a></li>
+                <li class="nav__item"><a href="#projects">Projects</a></li>
+                <li class="nav__item"><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="intro part">
+            <div class="wrapper">
+                <h1 class="intro__title">Hello, I'm <span>Marina&nbsp;Snitko</span>. <br>
+                    I'm a <span>junior front-end developer</span></h1>
+                <a class="button intro__button" href="#about">View my portfolio</a>
+            </div>
+        </section>
+
+        <section id="about" class="about part">
+            <h2 class="part__title">About</h2>
+            <div class="about__wrapper">
+                <p class="about__desc">My&nbsp;name is&nbsp;Marina Snitko, I&nbsp;am 28&nbsp;years old and I&nbsp;am
+                    a&nbsp;junior front-end developer. Graduated from the Belarusian State Technological University with
+                    a&nbsp;degree in&nbsp;editor-technologist, worked in&nbsp;publishing houses as&nbsp;a&nbsp;leading
+                    technical editor. I&nbsp;thought about changing the field about a&nbsp;year ago, but for a&nbsp;long
+                    time&nbsp;I could not find what I&nbsp;do like. I&nbsp;took trial courses in&nbsp;various areas
+                    of&nbsp;IT and so&nbsp;I found something that&nbsp;I trully enjoy. Now I&nbsp;am actively studying
+                    and this portfolio contains my&nbsp;educational projects</p>
+                <img class="about__img" data-aos="fade-up" data-aos-id="super-duper" src="./src/img/IMG_5545.jpg"
+                    alt="my photo">
+            </div>
+        </section>
+
+        <div class="overlay"></div>
+        <section id="projects" class="projects part">
+            <h2 class="part__title">Projects</h2>
+            <ul class="projects__list"></ul>
+        </section>
+
+        <section class="modal"></section>
+    </main>
+
+    <footer id="contacts" class="contacts footer">
+        <ul class="contacts__list">
+            <li class="contacts__item">
+                <a class="icon icon_git" href="https://github.com/Lukovkammm">
+                    <span class="visually-hidden">Github</span>
+                </a>
+            </li>
+            <li class="contacts__item">
+                <a class="icon icon_in" href="https://linkedin.com/in/marina-snitko">
+                    <span class="visually-hidden">LinkedIn</span>
+                </a>
+            </li>
+            <li class="contacts__item">
+                <a class="icon icon_skype" href="skype:yamarusya2">
+                    <span class="visually-hidden">Skype</span>
+                </a>
+            </li>
+            <li class="contacts__item">
+                <a class="icon icon_mail" href="mailto:artyusmarina@yandex.ru">
+                    <span class="visually-hidden">E-mail</span>
+                </a>
+            </li>
+            <li class="contacts__item">
+                <a class="icon icon_phone" href="tel:+375291298004">
+                    <span class="visually-hidden">Phone number</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    <script src="./src/js/sketch.js"></script>
+    <script src="./src/js/particle.js"></script>
+    <script src="./dist/main.js"></script>
+</body>
+
+</html>
